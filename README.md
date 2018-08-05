@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.org/t-kougei-game-comp/monte_carlo.svg?branch=master)](https://travis-ci.org/t-kougei-game-comp/monte_carlo)
+[![Build Status](https://travis-ci.org/t-kougei-game-comp/14_monte_carlo.svg?branch=develop)](https://travis-ci.org/t-kougei-game-comp/14_monte_carlo)
 
 # 今回の問題
 
