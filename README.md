@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.org/t-kougei-game-comp/rand.svg?branch=master)](https://travis-ci.org/t-kougei-game-comp/rand)
+[![Build Status](https://travis-ci.org/t-kougei-game-comp/monte_carlo.svg?branch=master)](https://travis-ci.org/t-kougei-game-comp/monte_carlo)
 
 # 今回の問題
 
@@ -47,7 +47,7 @@ nは正の数字です。
 すべてのテストケースで数字は以下の条件を満たします。
 * 0 <= n <= 2147483647(0x7fffffff)
 
-乱数の生成は、合同線形法のC+11のminstd_randの方法で行い、seedは0で始めること。
+乱数の生成は、合同線形法のC+11のminstd_randの方法で行い、seedは1で始める。
 生成した乱数をIEEE 754 の単精度浮動小数点数へビット演算で変換して[1.0,2.0]の浮動小数点を求めたあと、スケーリングで、[-1.0,+1.0]に変換する事。
 
 ## 入力例1
@@ -57,26 +57,15 @@ nは正の数字です。
 
 ## 出力例1
 ~~~
-1.00000
+0.000000
 ~~~
 
 ## 入力例2
 ~~~
-1
-6
-10
+100000000
 ~~~
 
 ## 出力例1
 ~~~
-1
-1
-4
-6
-6
-2
-4
-3
-2
-5
+3.141507
 ~~~
