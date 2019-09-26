@@ -1,9 +1,9 @@
-# モンテカルロ法の演習
+# モンテカルロ法
 
 # 進め方
 ## はじめてのとき
 * [GitHub](https://github.com/)のアカウントを作成してください
-* [Travis CI](https://travis-ci.org/) のアカウントを作成してください
+* [Travis CI](https://travis-ci.com/) のアカウントを作成してください
 * GitHubのアカウントを[こちらのフォーム](https://goo.gl/forms/anAdoxqPKVt8sJGZ2)から教えてください。
 ## 毎回の進め方
 * このリポジトリをforkしてください
@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.org/t-kougei-game-comp/14_monte_carlo.svg?branch=master)](https://travis-ci.org/t-kougei-game-comp/14_monte_carlo)
+[![Build Status](https://travis-ci.com/t-kougei-game-comp/14_monte_carlo.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp/14_monte_carlo)
 
 # 今回の問題
 
